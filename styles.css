@@ -1,0 +1,30 @@
+#AppleStockChart {
+  font: 12px sans-serif;
+}
+
+#AppleStockChart .axis path,
+#AppleStockChart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#AppleStockChart .x.axis path {
+  display: none;
+}
+
+#AppleStockChart .line {
+  fill: none;
+  stroke: maroon;
+  stroke-width: 1.5px;
+}
+
+#AppleStockChart .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#AppleStockChart .focus circle {
+  fill: none;
+  stroke: maroon;
+}
